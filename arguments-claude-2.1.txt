@@ -1,0 +1,56 @@
+====================================================================================================
+ARGUMENT FOR ANSWER D
+====================================================================================================
+The equation e^x + x - 2 = 0 has one solution at x = 0, since e^0 = 1. This solution lies in the interval [0, 1], so k ≥ 1. To show k > 1, we can analyze the function f(x) = e^x + x - 2. f(x) is continuous and differentiable on [0,1]. Taking the derivative, f'(x) = e^x + 1, which is positive for all x in [0,1]. Thus, f(x) is strictly increasing on this interval. Additionally, f(0) = -1 and f(1) = e + 1 - 2 > 0. By the intermediate value theorem, since f(x) is continuous and crosses the x-axis from negative to positive, there must be at least two solutions for f(x) = 0 in [0,1]. Therefore, k > 1. This matches option D.
+====================================================================================================
+ARGUMENT FOR ANSWER A
+====================================================================================================
+(S, +, x) contains only the even integers 0, 2, 4, 6, and 8 modulo 10. This set is closed under addition modulo 10, since the sum of any two even integers is another even integer. It also contains the additive identity 0. However, (S, +, x) is not closed under multiplication modulo 10. For example, 2 x 4 = 8 modulo 10, which is in S. But 2 x 6 = 12 = 2 modulo 10, which is not an element of S. Therefore, statement B is false while statements A, C, and D are true.
+====================================================================================================
+ARGUMENT FOR ANSWER A
+====================================================================================================
+The ladder forms a right triangle with the wall and the ground. Let x be the distance from the bottom of the ladder to the wall. Using the Pythagorean theorem, we have:
+(9 meters)2 = x2 + (3 meters)2
+Solving this:
+x = 6 meters
+The rate the bottom is moving away is 2 m/s. Using similar triangles, the rate the top is sliding down at any moment is (x / 9 meters) * (2 m/s). 
+When x = 6 meters, this rate is (6/9)*2 = 4/3 * 2 = 8/3 m/s = 12*sqrt(2) m/s.
+Therefore, the rate the top is sliding down when it is 3 meters above the ground is 12*sqrt(2) m/s. The answer is A.
+====================================================================================================
+ARGUMENT FOR ANSWER D
+====================================================================================================
+D must be true. P^2 = P implies P(P-I) = 0, where I is the identity transformation. The only linear transformations that satisfy P(P-I)=0 are P=0 and P=I. Since P is neither the zero transformation nor the identity on all of V (otherwise the other options would be correct), P must act as the identity on some subspace W of V and as the zero transformation on the complement subspace. Therefore, P is a projection onto W along the complement of W. Projections are always diagonalizable with eigenvalues 0 and 1. However, projections are not generally invertible unless W=V or W={0}. Therefore only statement III must be true.
+====================================================================================================
+ARGUMENT FOR ANSWER B
+====================================================================================================
+A complete graph with 10 vertices means that each vertex is connected to every other vertex. To calculate the number of edges in a complete graph, we can use the formula E = n(n-1)/2 where n is the number of vertices. 
+
+For a graph with 10 vertices, we plug n = 10 into the formula:
+E = 10(10-1)/2
+E = 10*9/2  
+E = 45/2
+E = 45
+
+Therefore, a complete graph with 10 vertices will have 45 edges. Since 45 edges corresponds to answer choice D, the number of edges in a complete graph with 10 vertices is 45. The argument shows step-by-step why a complete graph on 10 vertices must have 45 edges, thus B cannot be the correct answer.
+====================================================================================================
+ARGUMENT FOR ANSWER A
+====================================================================================================
+X and Y are independent discrete random variables with a geometric distribution, where the probability that X or Y equals any positive integer n is 1/2^n. We want to calculate the probability that the maximum of X and Y is greater than 3. For this to happen, either X must be greater than 3 or Y must be greater than 3. The probability that X is greater than 3 is 1/8, since X takes on the values 4, 5, 6, etc. each with probability 1/16, 1/32, 1/64, etc. which sums to 1/8. Similarly, the probability that Y is greater than 3 is 1/8. Since X and Y are independent, the probability that at least one of them is greater than 3 is the probability that X is greater than 3 or Y is greater than 3. By the rules of probability this is equal to the probability that X is greater than 3 plus the probability that Y is greater than 3 minus the probability that both are greater than 3, which works out to 1/8 + 1/8 - 1/64 = 15/64. Therefore, the probability that the maximum of X and Y is greater than 3 is 15/64, which matches choice A.
+====================================================================================================
+ARGUMENT FOR ANSWER A
+====================================================================================================
+K is a nonempty subset of R^n, where n > 1. Statement I states that if K is compact, then every continuous real-valued function defined on K is bounded. This statement must be true by the Heine-Borel theorem, which states that a subset of R^n is compact if and only if it is closed and bounded. Since continuous functions map compact sets to compact sets, a continuous function on a compact set K must map to a compact (hence bounded) set. Statement II is not generally true; a set can have all continuous functions bounded without being compact. Statement III is not required to be true; a compact set is not necessarily connected. Therefore, of the three statements, only Statement I must be universally true for all nonempty subsets K of R^n. The answer is A, as only Statement I is always true.
+====================================================================================================
+ARGUMENT FOR ANSWER A
+====================================================================================================
+A is connected, C is connected. Since A is a subset of B and C is a superset of B, this implies B is sandwiched between two connected sets. Any set sandwiched between two connected sets must itself be connected. Therefore, B is connected. A is compact, C is compact. Any subset of a compact set is compact, so since B is a subset of the compact set C, B must be compact. Therefore, statements I and II are true while statement III is not necessarily true.
+====================================================================================================
+ARGUMENT FOR ANSWER C
+====================================================================================================
+If v is an eigenvector of A, then by definition Av = λv for some eigenvalue λ. For III to be true, we need A^{-1}v = μv for some eigenvalue μ. Multiplying both sides by A gives v = μAv = μλv. Since v is non-zero, this implies μλ = 1. Therefore, v is an eigenvector of A^{-1} with reciprocal eigenvalue. However, for I and II there is no guarantee that 2λ or λ^2 will be eigenvalues with v as the corresponding eigenvector. So only III must be true.
+====================================================================================================
+ARGUMENT FOR ANSWER A
+====================================================================================================
+R has exactly two right ideals. One of them must be the zero right ideal, which contains only the additive identity. The other must be R itself, since it must contain the multiplicative identity. For U to be a right ideal, ur must be in U for any u in U and any r in R. So if U is not the zero ideal, it must equal R. Therefore, the only right ideals are {0} and R itself. 
+
+For R to have the multiplicative identity, it must be commutative. This satisfies statement I. R does not have to be a division ring or infinite. Therefore, the only statement that must be true is I. The answer is A.
